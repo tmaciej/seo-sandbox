@@ -4,9 +4,9 @@ import Link from '../Link';
 
 const Navigation = () => (
   <div className="Navigation">
-    <Link href="/">Home</Link>
-    <Link href="/subpage">Subpage</Link>
-    <Link href="/foo">Non existent page</Link>
+    <Link href="/seo-sandbox/">Home</Link>
+    <Link href="/seo-sandbox/subpage">Subpage</Link>
+    <Link href="/seo-sandbox/foo">Non existent page</Link>
   </div>
 );
 
