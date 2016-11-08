@@ -1,5 +1,17 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 100px;
   font-family: sans-serif;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
 }
