@@ -1,5 +1,5 @@
 export default {
-  path: '/seo-sandbox/',
+  path: '/',
 
   children: [
     require('./Home').default,
