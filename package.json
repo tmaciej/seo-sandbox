@@ -5,7 +5,9 @@
   "homepage": "https://tmaciej.github.io/seo-sandbox",
   "devDependencies": {
     "gh-pages": "^0.11.0",
-    "react-scripts": "0.7.0"
+    "history": "^4.4.0",
+    "react-scripts": "0.7.0",
+    "universal-router": "^2.0.0"
   },
   "dependencies": {
     "react": "^15.3.2",
@@ -16,6 +18,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build"
   }
 }
